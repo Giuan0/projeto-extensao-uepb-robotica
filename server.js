@@ -1,5 +1,5 @@
-var five = require("johnny-five");
-var board = new five.Board();
+let five = require("johnny-five");
+let board = new five.Board();
 const app = require('express')();
 
 const cors = require('cors')
